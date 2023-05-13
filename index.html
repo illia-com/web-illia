@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календар на 7 днів</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            width: 90%;
+        }
+
+        th {
+            background-color: #2d2d2d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #fff;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .day-label {
+            background-color: #e3e3e3;
+            font-weight: bold;
+        }
+
+        .work {
+            background-color: #ffe599;
+        }
+
+        .weekend {
+            background-color: #f5b7b1;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th></th>
+          <th>Понеділок</th>
+          <th>Вівторок</th>
+          <th>Середа</th>
+          <th>Четвер</th>
+          <th>П'ятниця</th>
+          <th>Субота</th>
+          <th>Неділя</th>
+        </tr>
+
+        <!-- Тиждень 1 -->
+        <tr>
+          <td class="day-label">Тиждень 1</td>
+          <td class="work">
+            <ol>
+              <li>9:00 - 11:00: Предмет №1</li>
+              <li>11:00 - 12:00: Предмет №2</li>
+            </ol>
+          </td>
+          <td class="work">
+            <ol>
+              <li>9:00 - 10:00: Предмет №3</li>
+              <li>10:00 - 11:00: Предмет №4</li>
+              <li>11:00 - 12:00: Предмет №5</li>
+            </ol>
+          </td>
+          <td class="work">
+            <ol>
+              <li>9:00 - 10:00: Предмет №2</li>
+              <li>10:00 - 12:00: Предмет №1</li>
+            </ol>
+          </td>
+          <td class="work">
+            <ol>
+              <li>9:00 - 10:00: Предмет №4</li>
+              <li>10:00 - 11:00: Предмет №3</li>
+              <li>11:00 - 12:00: Предмет №1</li>
+            </ol>
+          </td>
+          <td class="work">
+            <ol>
+              <li>9:00 - 11:00: Предмет №5</li>
+              <li>11:00 - 12:00: Предмет №2</li>
+            </ol>
+          </td>
+          <td class="weekend"></td>
+          <td class="weekend"></td>
+        </tr>
+
+        <!-- Тиждень 2 -->
+        <tr>
+            <td class="day-label">Тиждень 2</td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №1</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №3</li>
+                <li>10:00 - 11:00: Предмет №4</li>
+                <li>11:00 - 12:00: Предмет №5</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №2</li>
+                <li>10:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №4</li>
+                <li>10:00 - 11:00: Предмет №3</li>
+                <li>11:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №5</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="weekend"></td>
+            <td class="weekend"></td>
+          </tr>
+
+          <!-- Тиждень 3 -->
+          <tr>
+            <td class="day-label">Тиждень 3</td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №1</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №3</li>
+                <li>10:00 - 11:00: Предмет №4</li>
+                <li>11:00 - 12:00: Предмет №5</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №2</li>
+                <li>10:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №4</li>
+                <li>10:00 - 11:00: Предмет №3</li>
+                <li>11:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №5</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="weekend"></td>
+            <td class="weekend"></td>
+          </tr>
+
+          <!-- Тиждень 4 -->
+          <tr>
+            <td class="day-label">Тиждень 4</td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №1</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №3</li>
+                <li>10:00 - 11:00: Предмет №4</li>
+                <li>11:00 - 12:00: Предмет №5</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №2</li>
+                <li>10:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 10:00: Предмет №4</li>
+                <li>10:00 - 11:00: Предмет №3</li>
+                <li>11:00 - 12:00: Предмет №1</li>
+              </ol>
+            </td>
+            <td class="work">
+              <ol>
+                <li>9:00 - 11:00: Предмет №5</li>
+                <li>11:00 - 12:00: Предмет №2</li>
+              </ol>
+            </td>
+            <td class="weekend"></td>
+            <td class="weekend"></td>
+          </tr>
+      </table>
+</body>
+</html>
